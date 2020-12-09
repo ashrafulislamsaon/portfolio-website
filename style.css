@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+/************
+INITIAL SETUP
+************/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width:100%;
+}
+/************
+TOP SECTION
+************/
+.top{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.top-aside{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+}
+.text{
+    margin-top:100px;
+}
+.text h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text h1{
+    color:#EC4C7A;
+    font-size: 50px;
+}
+.text p{
+    line-height: 1.5;
+    margin: 30px 0;
+}
+.text a{
+    color:#fff;
+    background-color:#EC4C7A ;
+    padding:8px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.top-aside img{
+    width: 100%;
+}
+/************
+BIO SECTION
+************/
+
+.bio-bg{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.bio{
+    width: 40%;
+    float: left;
+}
+.bio-image img{
+    width: 100%;
+    padding-left: 13%;
+}
+.bio-text{
+    margin-top: 150px;
+    padding-left: 10%;
+}
+.bio-text h2{
+    font-weight: 500;
+}
+.bio-text p{
+    line-height: 1.4;
+    font-size: 15px;
+    margin:40px 0;
+}
+.bio-text a{
+    color:#fff;
+    background-color:#EC4C7A ;
+    padding:8px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+/************
+WORK SECTION
+************/
+.work-bg{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.work-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.work-text h2{
+    font-size: 30px;
+}
+.work-image{
+    width:30%;
+    float: left;
+    padding-left:3%;
+}
+.work-image img{
+    
+}
+/************
+TESTIMONIAL SECTION
+************/
+.testimonial{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tes-content h2{
+    font-size:30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.tes-content h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.tes-content span{
+    font-size: 12px;
+}
+.tes-content p{
+    margin:20px 0;
+}
+.email{
+    background-color: #EC4E8D;
+    display: inline-block;
+    padding: 30px 80px;
+    color: #fff;
+    border-radius: 5px;
+}
+.email h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 10px;
+}
+/************
+FOOTER SECTION
+************/
+footer{
+    text-align: center;
+}
+footer p{
+    font-size:10px;
+}
+footer span a{
+    color:#EC4E8D;
+}
